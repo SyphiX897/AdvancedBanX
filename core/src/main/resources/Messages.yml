@@ -65,7 +65,7 @@ Tempban:
   Notification:
     - "<red><italic>%NAME%</italic></red> <gray>got banned by</gray> <yellow><italic>%OPERATOR%<italic></yellow>"
     - "<gray>For the reason <italic>%REASON%</italic></gray>"
-    - "<gray><italic>This player got banned for <yellow>DURATION%</yellow></italic></gray>"
+    - "<gray><italic>This player got banned for <yellow>%DURATION%</yellow></italic></gray>"
 
 Tempipban:
   Usage: "<red>Usage</red> <dark_gray>»</dark_gray> <gray><italic>/tempipban (-s) [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]</italic></gray>"
@@ -83,7 +83,7 @@ Tempipban:
   Notification:
     - "<red><italic>%NAME%</italic></red> <gray>got banned by</gray> <yellow><italic>%OPERATOR%<italic></yellow>"
     - "<gray>For the reason <italic>%REASON%</italic></gray>"
-    - "<gray><italic>This player got banned for <yellow>DURATION%</yellow></italic></gray>"
+    - "<gray><italic>This player got banned for <yellow>%DURATION%</yellow></italic></gray>"
 
 Mute:
   Usage: "<red>Usage</red> <dark_gray>»</dark_gray> <gray><italic>/mute (-s) [Name] [Reason/@Layout]</italic></gray>"
